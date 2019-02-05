@@ -8,9 +8,11 @@ function lowerCaseDrivers(array) {
 }
 
 function nameToAttributes(array) {
-  let objectifiedNames = array.map(function(x) {
-    objectifiedNames["firstName"] = x.split(" ")[0]
-    objectifiedNames["lastName"] = x.split(" ")[1]
+  let objectifiedNames = []
+  array.map(function(x) {
+    let a = x.split(" ")[0]
+    let b = x.split(" ")[1]
+    objectifiedNames.push(firstName: a, lastName: b);
   })
 
   return objectifiedNames;
