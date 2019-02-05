@@ -17,3 +17,7 @@ function nameToAttributes(array) {
 
   return objectifiedNames;
 }
+
+function attributesToPhrase() {
+  
+}
