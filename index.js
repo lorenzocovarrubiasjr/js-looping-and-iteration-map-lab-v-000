@@ -19,8 +19,8 @@ function nameToAttributes(array) {
 }
 
 function attributesToPhrase(array) {
-  let printOut = array.map{function(x){
+  let printOut = array.map(function(x){
     return `${x.name} is from ${x.hometown}`
-  };
+  });
   return printOut;
 }
