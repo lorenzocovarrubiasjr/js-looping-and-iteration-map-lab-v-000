@@ -18,6 +18,9 @@ function nameToAttributes(array) {
   return objectifiedNames;
 }
 
-function attributesToPhrase() {
-
+function attributesToPhrase(array) {
+  let printOut = array.map{function(x){
+    return `${x.firstName} is from ${x..hometown}`
+  }}
+  return printOut;
 }
